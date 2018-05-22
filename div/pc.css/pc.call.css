@@ -1,0 +1,367 @@
+*{margin: 0;
+}
+.hr { width: 50%;
+height: 20px;
+background-color:rgb(122,227,252);
+margin:0 auto;
+line-height: 300px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.all{width:100%;
+	display: flex;
+	align-content: flex-start;
+	justify-content:space-between;
+flex-wrap:wrap;
+}
+
+.search{width: 200px;
+height: 50px;
+background-color: #faf;
+margin: 15px;
+
+}
+.logo{width: 300px;
+height: 300px;
+background-color: #fcf;
+
+}
+.Shoppingcartbutton{width:200px;
+	height: 50px;
+	background-color: #bbb;
+margin: 15px;
+	}
+
+
+.buts{width: 100%;
+	height: 290px;
+	background-color: #a11;
+font-family: 微軟正黑體 ;
+position: absolute;
+display: flex;
+}
+
+ .but1{
+ 	position:relative;
+ 	float: left;
+  	padding:5px; 
+  	margin-left:25%;
+ }
+ .but1{color: rgb(190, 149, 99);}
+ .but2{
+ 	position: relative;
+ 	float: left;
+	padding:5px; 
+ }
+ .but2{color: rgb(190, 149, 99);}
+  .but3{
+ 	position: relative;
+ 	float: left;
+ 	padding:5px; 
+}
+.but3{color: rgb(190, 149, 99);}
+ .but4{
+ 	position: relative;
+ 	float: left;
+	padding:5px; 
+ }
+ .but4{color: rgb(190, 149, 99);}
+ .but5{
+ 	position: relative;
+ 	float: left;
+	padding:5px; 
+ }
+ .but5{color: rgb(190, 149, 99);}
+ .but6{
+ 	position: relative;
+ 	float: left;
+	padding:5px; 
+ }
+ .but6{color: rgb(190, 149, 99);}
+  .but7{
+ 	position: relative;
+ 	float: left;
+ 	padding:5px; 
+ } 
+ .but7{color: rgb(190, 149, 99);}
+ .but8{
+ 	position: relative;
+	 float: left;
+ 	padding:5px; 
+ } 
+ .but8{color: rgb(190, 149, 99);}
+ .pic{width: 100%;
+	height: 400px;
+	background-color: #f00; 
+	margin-top: 29px;}
+	.fx{width: 40%;
+		height: 400px;
+		background-color: rgba(148, 148,149, 0.5);
+		margin-left: 60%;}
+		
+		.fx p{font: 標楷體;
+			font-size: 45px;
+			line-height:75px;
+			text-align: center;
+			margin-right: 10px;
+			
+		}
+	.theme_1 h1{
+		text-align:center;
+		color: rgb(127, 79, 33);
+		line-height: 100px;
+	font-size: 50px;
+	
+	}
+	.theme_photo{width: 50%;
+		height: 400px;
+		border: solid 1px;
+		margin: 0 auto;
+			}
+	.subtitle_1 h3{text-align: center;
+		line-height:80px;
+		font-size:35px;
+		color:rgb(190,149,99);}
+
+	ul {text-align: justify;
+		text-align: center;
+		list-style-type: none;
+		line-height: 60px;
+		font-size: 20px;	
+		color:rgb(122,106,86);}
+	
+	.theme_2 h1{text-align:center;
+		color: rgb(127, 79, 33);
+		line-height: 100px;
+	font-size: 50px;
+	
+			}
+	.box{width: 70%;
+		height: 400px;
+		background-color:#f22;
+		margin: 0 auto;
+	
+		
+	}
+	.subtitle_2_1 {display:flex;
+		flex-direction:row;
+		justify-content: center; 
+
+	}
+	.subtitle_2_1 hr{ height:5px;border:none;border-top:5px ridge green;
+		width:10px;}
+
+	.subtitle_2_1 h3{text-align: center;
+		line-height:80px;
+		font-size:35px;
+		color:rgb(190,149,99);}
+
+	.box_1{width: 50%;
+		height:340px;
+		background-color:#111;
+		float: left;
+			
+		}
+
+	.box p{margin-left: 100px;}
+	.box_2{
+		width: 50%;
+		height:340px;
+		background-color:#111;
+		float: right;
+			
+			}
+	.box h3{margin-left: 100px;}
+	.box span{margin-left:50px ;}
+	
+	
+	.all_00{width: 70%;
+		height: 700px;
+		border:solid 1px;
+		margin: 0 auto;
+		display: inline-block;
+		display: flex;
+		clear: right;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		
+
+	}
+	.theme_3 h1
+	{text-align:center;
+	color: rgb(127, 79, 33);
+	line-height: 100px;
+	font-size: 50px;
+	 clear: right;
+	}
+
+	.shoppingcar{width:50px;
+		height:50px;
+		background-color:#444;
+		float: right;
+			}
+	.product{width:30%;
+		height:50%;
+		background-color:#777;
+		border-radius:50% ;
+		overflow: hidden;
+		margin-bottom: 10px;
+		}
+	.pic_01{width:100%;
+		height:70%;
+		background-color:#258;
+	}
+	.buy{width:100px;
+		height:50px;
+		background-color:#456;
+		margin-left: 40px;
+		border-radius: 20px;
+		font-size: 40px;
+		text-align: center;
+		margin-top: 7px;
+		clear: left;
+		float: left;
+		}
+	.price{width:100px;
+		height:50px;
+		background-color:#456;
+		margin-left:190px;
+		border-radius: 20px;
+		font-size: 40px;
+		text-align: center;
+		margin-top: 7px;}
+
+.theme_4 h1{
+	text-align:center;
+	color: rgb(127, 79, 33);
+	line-height: 100px;
+	font-size: 50px;
+	
+
+}
+
+	.all_11{width: 70% ;
+		height: 700px;
+		border:solid 1px;
+		margin: 0 auto;
+		display: inline-block;
+		margin-top: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+
+			}
+
+	
+	.product_02{width:30%;
+		height:50%;
+		background-color:#777;
+		border-radius:50% ;
+		overflow: hidden;
+		margin-bottom: 10px;
+		}
+	.pic_02{width:100%;
+		height:70%;
+		background-color:#258;
+	}
+	.buy_02{width:100px;
+		height:50px;
+		background-color:#456;
+		margin-left: 40px;
+		border-radius: 20px;
+		font-size: 40px;
+		text-align: center;
+		margin-top: 7px;
+		clear: left;
+		float: left;
+		}
+	.price_02{width:100px;
+		height:50px;
+		background-color:#456;
+		margin-left:190px;
+		border-radius: 20px;
+		font-size: 40px;
+		text-align: center;
+		margin-top: 7px;}
+
+	.theme_5 h1{text-align:center;
+	color: rgb(127, 79, 33);
+	line-height: 100px;
+	font-size: 50px;
+
+
+	}
+	.filmArea{width:70%;
+		height: 700px;
+		background-color:#655;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.filmArea .film1{width: 30%;
+		height:70%;
+		background-color:#354;}
+		.filmArea .film2{width: 30%;
+		height:70%;
+		background-color:#354;}
+	.filmArea .film3{width: 30%;
+		height:70%;
+		background-color:#354;}
+		.filmArea .film4{width: 30%;
+		height:70%;
+		background-color:#354;}
+		
+		
+		.theme_6 h1{text-align:center;
+	color: rgb(127, 79, 33);
+	line-height: 100px;
+	font-size: 50px;
+
+}
+
+
+.data{width: 80%;
+height:600px;
+background-color:#111;
+margin: 0 auto;
+}
+
+.data .up{width: 100%;
+height:50%;
+background-color:#888;}
+
+.data .under{width: 100%;
+height: 50%;
+background-color:#887;}
+
+.data .up .lineqr{width:30%;
+height: 100%;
+background-color:#654;
+float:right;}
+
+.data .under .fbqr{width: 30%;
+height: 100%;
+background-color:#665;
+float:right;}
+
+.businesshours{width:80%;
+height:200px;
+background-color:#258;
+border:solid 1px;
+margin:0 auto;}
+
+.theme_7 h1{text-align:center;
+	color: rgb(127, 79, 33);
+	line-height: 100px;
+	font-size: 50px;}
+.commonproblem{width:80%;
+height:800px;
+background-color:#F77;
+margin:0 auto;}
+.Howtoorder{width:80%;
+height:200px;
+background-color:#334;}
+
