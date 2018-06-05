@@ -20,15 +20,6 @@ color: rgb(170, 102, 102);
 font-size: 30px;}
 .card-body p{font-size: 20px;}
 
- @media only screen and (max-width: 769px) {
-    .card-text{
-        overflow : hidden;
-        text-overflow : ellipsis;
-        white-space : nowrap; 
-    }
-    p a{margin-left:10%;}   
-   
-     }
 
 p a{margin-left:44%;}
   
@@ -65,10 +56,10 @@ line-height: 30px;}
 .card-text h6{color: rgb(124, 73, 73);}
 .card-body{color: rgb(168, 89, 89);}
 
-.under{display: flex;
-flex-direction: row;
-justify-content: space-between;
-background-color: burlywood;}
+.under{background-color: burlywood;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;}
 
 .footer{width: 100%;
 height:50px;
@@ -77,11 +68,35 @@ background-color: brown;}
 .scrollspy-example h4{color: olive;}
 .scrollspy-example p{color: rgb(33, 77, 13);}
 
-.box_1 h4{color: rgb(123, 154, 240);}
+.box_1 h4{color: rgb(123, 154, 240);
+text-align: center;}
 .box_1 p{color: rgb(228, 13, 31);
-font-size: 20px;}
+font-size: 20px;
+text-align: center;}
 #list-example{width: 50%;
 margin: 0 auto;}
 
 #accordion{width: 50%;
 margin: 0 auto;}
+.box_2{margin: 0 auto;}
+
+#gohome{margin-left: 40%;
+line-height: 100px;}
+
+@media only screen and (max-width: 769px) {
+
+    p a{margin-left:10%;}   
+    .cap--1{display: flex;
+            justify-content: center;
+            text-align: center;
+     }
+     }
+/* 分頁3 */
+     .cap--1{display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              text-align: center;}
+    
+
+              .footer{text-align: center;
+            color: #fff;}
